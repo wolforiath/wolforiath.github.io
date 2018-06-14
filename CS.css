@@ -26,11 +26,17 @@ body{
 }
 #sub{
   margin-top: 0;
-  width: 10%;
+  width: 100%;
   background-color: #858585;
+  background: linear-gradient(to right, #858585 , #ffffff , #858585);
   margin: auto;
   padding-top: 15px;
   padding-bottom: 15px;
+  text-align: center;
+}
+a {
+  text-decoration: none;
   color: black;
-  font-style: normal;
+  padding-left: 20px;
+  padding-right: 20px;
 }
